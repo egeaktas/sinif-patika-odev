@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double mat, fiz, turk, kim, muzik, toplam = 0, sayac = 0, ort;
-        
+        System.out.println("hey");
         mat = input.nextDouble();
         fiz = input.nextDouble();
         turk = input.nextDouble();
