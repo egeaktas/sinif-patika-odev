@@ -3,7 +3,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double mat, fiz, turk, kim, muzik, toplam = 0, sayac = 0, ort;
-        System.out.println("hey");
         mat = input.nextDouble();
         fiz = input.nextDouble();
         turk = input.nextDouble();
@@ -37,7 +36,13 @@ public class Main {
 
         ort = toplam / sayac;
 
-        System.out.println(ort);
+        System.out.println("ortalama: " + ort);
+
+        if(ort>=55){
+            System.out.println("Successful");
+        }else {
+            System.out.println("Unsuccessful");
+        }
 
     }
 }
